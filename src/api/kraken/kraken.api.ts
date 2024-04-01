@@ -107,7 +107,7 @@ class Kraken {
 			type: "buy",
 			ordertype: "market",
 			volume: volume,
-			validate: true
+			validate: false
 		};
 
 		let response = await this.add_order(data);
